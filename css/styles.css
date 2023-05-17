@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  text-decoration: none;
 }
 
 body {
@@ -20,6 +22,8 @@ nav {
   display: flex;
   flex-direction: column;
   gap: 16px;
+
+  margin-bottom: 64px;
 }
 
 .memory small {
@@ -29,6 +33,7 @@ nav {
 
 .memory h1 {
   font-size: 32px;
+  color: #eaeaea;
 }
 
 .memory img {
